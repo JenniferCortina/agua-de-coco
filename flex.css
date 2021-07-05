@@ -1,0 +1,20 @@
+.flex-container {
+    /*this allows the container to be flex */
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: dodgerblue;
+  }
+
+  .flex-container div {
+      background-color: #ffffff;
+      margin: 10px;
+      padding: 20px;
+      font-size: 30px;
+  }
+
+  /* recall the specific rules will 
+  always trump the general rules */
+
+  .container > div {
+      background-color: red;
+  }

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A website about my favorite foods</title>
+
+    <link rel="stylesheet" text="text/css" href="Day6\food.css"/>
+    
+    <style>
+        body {
+            margin:0%;
+        }
+
+        nav {
+            padding: 1.3em;
+            background-color:rgb(122, 54, 122);
+            color: white;
+            font-variant:normal;
+            font-family:sans-serif;
+        }
+
+        div {
+            display: inline-block;
+            vertical-align: middle;
+
+        }
+
+        div >span:first-child {
+            font-size: 1.5em;
+            background-color: red;
+        }
+
+        nav >span {
+            margin: 1em;
+        }
+
+}
+
+    </style>
+</head>
+<body>
+    <!-- I want a masthead with a search bar, a logo section, links, and a 
+        sign-in/cart option set to the right -->
+
+        <!-- break up the pieces via html -->
+        <nav>
+            <!-- logo element / more than likely an h1 or a div with nested text -->
+            <div>
+                <span>Logo</span>
+            </div>
+            <!-- list of links either / organized as a ul or just spans -->
+                <span>Dishes</span>
+                <span>Specials</span>
+                <span>Order Takeout</span>
+                <span>Drinks</span>
+                <!-- search bar / can be created as a positioned div with excat dimensions -->
+                <!-- sign-in and cart floated to the right and grouped together in a div -->
+            </div>
+            <form>
+                <input type="text" name="search" placeholder="Search...">
+
+                <style> 
+                    input[type=text] {
+                      cursor:grab;
+                      width: 15%;
+                      box-sizing: border-box;
+                      border: 1px solid #ccc;
+                      border-radius: 2px;
+                      font-size: 10px;
+                      background-color: white;
+                      background-image: url('https://openclipart.org/image/800px/svg_to_png/213239/Search-icon.png');                  background-position:initial;
+                      padding: 10px;
+                    }
+                    </style>
+
+              </form>
+        </nav>
+    
+</body>
+<body style= "background-color:#b38eccd5;">
+      
+    <h1>
+        <h1 style="font-family: 'Italianno', cursive; font-style: italic; font-size: 300%;">¡Bienvenidos a mi página web! Welcome to my webpage!
+            
+        </h1>
+            
+            <p style="font-family: 'Fredericka the Great', cursive;">Here is a list of my five favorite restaurants as well as a link to their page</p>
+     <ul>
+        <ul style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+       <li>
+         <img src="https://www.elportondelaflaca.com/wp-content/uploads/2018/01/illustration_elportondelaflaca-570x330.jpg" alt="El Portón de la Flaca"
+          width="120"
+         >
+          <a href="https://www.elportondelaflaca.com/" target="blank">El Portón de la Flaca</a>
+         <p>This restaurant serves typical Colombian food.</p>
+        </li>
+       <li>
+           <img src="https://mondongos.com.co/img/logo.png" alt="Mondongo's Miami"
+           width="150"
+           >
+           <a href="https://mondongos.com.co/index.php" target="blank">Mondongo's Miami</a>
+           <p>This restaurant serves typical Colombian food.</p>
+     </li>
+     <li>
+         <img src="https://piscoynazca.com/wp-content/uploads/2019/02/PiscoyNazca_Circle_largeformat.png" alt="Pisco y Nazca Ceviche GastroBar"
+         width="100"
+         >
+         <a href="https://piscoynazca.com/doral/" target="blank">Pisco y Nazca Ceviche GastroBar</a>
+        <p>This restaurant has typical Peruvian food.</p>
+        </li>
+     <li>
+         <img src="https://www.grazianosgroup.com/wp-content/uploads/2017/03/Grazianos-Logo-Path-69@2x.png" alt="Graziano's"
+         width="100"
+         >
+         <a href="https://www.grazianosgroup.com/market-doral/" target="blank">Graziano's</a>
+         <p>This restaurant has typical Argentinian food.</p> 
+        </li>
+     <li>
+         <img src="https://static1.squarespace.com/static/5a0baba5914e6beb5f423ede/t/60a40eacba0550091067fd0b/1623078416295/?format=1500w" alt="Yip Miami"
+         width="100"
+         >
+         <a href="https://www.yipmiami.com/" target="blank">Yip Miami</a>
+         <p style="font-style: oblique;">This restaurant has typical Asian food.</p>
+     </li>
+     </ul>
+    
+     <table>
+        <h2>Some of my favorite dishes </h2>
+        <style>
+            table {
+      font-family: cambria;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    td, th {
+      border: 1px dotted;
+      text-align: left;
+      padding: 7px;
+    }
+        </style>
+    
+        <tr>
+            <th>Restaurant</th>
+            <th>Dish/ Dishes</th>
+          </tr>
+          <tr>
+            <td>El Portón de la Flaca</td>
+            <td>Carne Asada de Res con Patacón</td>
+          </tr>
+          <tr>
+            <td>Mondongo's Miami</td>
+            <td>Mondongo, Solomo a la Plancha, Torta Negra</td>
+          </tr>
+          <tr>
+            <td>Pisco y Nazca</td>
+            <td>Ceviche, Chaufa Aeropuerto,Leche Tigre and Pisco Sour</td>
+          </tr>
+          <tr>
+            <td>Graziano's</td>
+            <td>Alfajores, Churrasco, Milanesas</td>
+          </tr>
+          <tr>
+            <td>Yip Miami</td>
+            <td>Siu Mai and Chinese Chicken Bao</td>
+          </tr>
+    
+     </table>
+    
+     <h3>What foods would you like to try?</h3>
+         <form>
+                <label for="type">What foods would you like to try?</label>
+                
+                <select id="type" name="type">
+                <option value="carne de res con Patacón">Carne de Res con Patacón</option>
+                <option value="mondongo">Mondongo</option>
+                <option value="ceviche">Ceviche</option>
+                <option value="churrasco">Churrasco</option>
+                <option value="siu mai">Siu Mai</option>
+                </select>
+    
+                <label for="other">Other: </label>
+                <input type="text" id="other" name="other"><br>
+    
+        <h4 style="text-align:center; font-style: italic;">¡Gracias por visitar mi página web! Thank you for visitng my page!</h4>
+        <footer>
+            <p style="text-align: center;">Author: Jennifer Cortina<br>
+
+                <style>
+            
+                    footer {
+                        padding: 0.3em;
+                        background-color:rgb(122, 54, 122);
+                        color: white;
+                        font-variant:normal;
+                        font-family:sans-serif;
+                    }
+            
+                    div {
+                        display: inline-block;
+                        vertical-align: middle;
+            
+                    }
+            
+                    footer >span {
+                        margin: 1em;
+                    }
+            
+            }
+            
+                </style>
+          </footer>
+    
+    </body>
+</html>
+    

@@ -1,0 +1,46 @@
+body {
+	background-color: rgba(221, 160, 221, 0.657);
+}
+
+html {
+	position:relative;
+	min-height:100%;
+}
+
+.jumbotron {
+	background-image:url('https://upload.wikimedia.org/wikipedia/commons/1/13/Yoga_Teacher_Trainng_in_India_-_Yog_Amritam_Rishikesh_India.jpg'); 
+	padding: 60%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin-top: -50px;
+	background-attachment: fixed;
+	background-position:  center -156px;
+
+
+    #footer {
+        background-color: #D64541;
+        position: absolute;
+        bottom: 0;
+        width: 150%;
+        height: auto;
+        /*line height: 60px; */
+    }
+    
+    #footer ul li {
+        display: inline-block;
+        list-style: none;
+        /* float: right; */
+        
+    }
+    
+    #footer p {
+        float: left;
+    }
+    
+    #footer a,
+    #footer p {
+    
+        color:#fff;
+        vertical-align: middle;
+    
